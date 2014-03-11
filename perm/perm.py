@@ -12,7 +12,7 @@ output = ''
 
 # for loop going over number of permutations of n length
 for item in permutations(range(1, n+1), n):
-	# increment toal
+	# increment total
 	total += 1
 	# write each permutation to perm and add it to a new line in output
 	perm = ' '.join(str(item[i]) for i in range(n))
